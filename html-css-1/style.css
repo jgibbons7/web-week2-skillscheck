@@ -1,0 +1,84 @@
+body {
+    align-items: center;
+}
+
+
+.header {
+height: 8vh;
+background-color: grey;
+display: flex;
+
+}
+
+.company {
+    position: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(221, 221, 221);
+    flex-direction: row;
+    font-size: 30px;
+    margin-right: 60vw;
+    margin-left: 50px;
+}
+
+.nav {
+    position: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(221, 221, 221);
+    flex-direction: row;
+    font-size: 14px;
+}
+
+
+
+#main {
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
+    color: rgb(238, 235, 65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 72px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.greenBox {
+    position: flex;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(169, 255, 226);
+    border-radius: 20px;
+}
+
+.orangeBox {
+    height: 300px;
+    width: 500px;
+    background-color: orange;
+}
+
+.pic {
+    height: 200px;
+    width: 350px;
+}
+
+p {
+    height: 200px;
+    width: 350px;
+}
+
+.footer {
+    height: 12vh;
+    background-color: rgb(58,58,86)
+}
